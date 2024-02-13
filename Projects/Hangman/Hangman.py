@@ -1,5 +1,3 @@
-# fuck hangman
-
 import random
 
 li_food = ["chicken", "banana", "fish", "pizza", "lemon", "bread", "jam", "cheese", "butter", "onion"]
