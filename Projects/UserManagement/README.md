@@ -1,4 +1,4 @@
-# This project is a user management application.
+# This project is a user management application that has a three-layer architecture and all information is stored in the database.
 
 ### This application has a registration page and a login page.
 
