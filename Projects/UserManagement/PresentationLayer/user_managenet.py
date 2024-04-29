@@ -3,7 +3,6 @@ from ttkbootstrap import Frame, Treeview, Label, Button, INFO, LIGHT, DANGER, SU
 from ttkbootstrap.dialogs import Messagebox
 from BusinessLogicLayer.user_business import UserBusiness
 from CommonLayer.logs_decorator import performance_logger_decorator
-from CommonLayer.manger_decorator import manager_decorator
 
 
 class UserManagement(Frame):
