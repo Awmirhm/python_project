@@ -10,8 +10,6 @@ class UserManagement(Frame):
     def __init__(self, view, window):
         super().__init__(window)
 
-        self.manager_list = ["amir.hm", "goli"]
-
         self.user_business = UserBusiness()
 
         self.view = view
