@@ -1,5 +1,4 @@
 from DataAccessLayer.user_data_access import UserDataAccess
-from CommonLayer.logs_decorator import performance_logger_decorator
 
 
 class UserBusiness:
@@ -109,7 +108,7 @@ class UserBusiness:
             return [None, "Invalid Last Name "]
 
         if gender == "0":
-            return [None, "Please specify upur gender"]
+            return [None, "Please specify your gender"]
 
         if password == repeat_password:
             for username_all_users in usernames:
